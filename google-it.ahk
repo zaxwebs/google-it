@@ -8,6 +8,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ^LWin::
 	send,^c
 	sleep 150
-	url := "google.com/search?q=" . StrReplace(clipboard, A_Space, "+")
-Run, chrome.exe %url%
+	url := "https://google.com/search?q=" . StrReplace(clipboard, A_Space, "+")
+Run, %url%
 return
