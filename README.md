@@ -1,5 +1,5 @@
 # google-it
-An AutoHotKey script to google selected text.
+An AutoHotKey script to google selected text. Searching anything is just one shorcut away.
 
 
 # Setup
